@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Batman</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.5.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
+
+    <link rel="icon" href="img/favicon.png" type="image/png">
+
+
+    <link rel="stylesheet" href="css/estilos.css">
+
+
+
+</head>
+
+<body>
+
+    <!-- header 2-->
+
+    <header class="container-fluid bg-warning">
+
+
+    <!-- Batman
+        <h1 class="text-center pt-5" style="color: black; font-family: 'Bangers', cursive;font-size: 75px;">Batman</h1> --> 
+
+    <!-- logo2--> 
+        <div class="container-fluid pt-5 pb-3 text-center d-flex align-items-center justify-content-center">
+            <img class="img-fluid" src="img/logo2.png" style="width: 200px;">
+
+        </div>
+
+   <!-- Banner-->
+
+    <div class="container-fluid bg-warning">
+        <div class="row">
+            <div class="col-12 pb-3">
+                <div class="banner">
+                    <p class="rotate-text" style="font-family: 'Bangers', cursive;font-size: 25px;">"Soy Batman"</p>
+                    <p class="rotate-text" style="font-family: 'Bangers', cursive;font-size: 25px;"> "Yo soy la noche"</p>
+                    <p class="rotate-text" style="font-family: 'Bangers', cursive;font-size: 25px;"> "No necesitas superpoderes para ser un superhéroe."</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</header>
+
+    <!-- carrusel -->
+
+    <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active img-fluid" style="max-height:500px;">
+                <img src="img/c3.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item" style="max-height:500px;">
+                <img src="img/c2.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item" style="max-height:500px;">
+                <img src="img/c1.jpg" class="d-block w-100" alt="...">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <!-- logotipos-->
+
+    <div class="container-fluid bg-warning">
+
+        <div class="row align-items-center">
+
+            <div class="col-2"> <img class="img-fluid m-3 p-2 animated-image first-image " src="img/1939.png"></div>
+            <div class="col-2"> <img class="img-fluid m-3 p-2 animated-image second-image" src="img/1941.png"></div>
+            <div class="col-2"> <img class="img-fluid m-3 p-2 animated-image third-image" src="img/1959.png"></div>
+            <div class="col-2"> <img class="img-fluid m-3 p-2 animated-image explode-image" src="img/1966.png"></div>
+            <div class="col-2"> <img class="img-fluid m-3 p-2 animated-image bounce-image" src="img/2000.png"></div>
+            <div class="col-2"> <img class="img-fluid m-3 p-2 animated-image first-image" src="img/2018.png"></div>
+
+        </div>
+
+    </div>
+
+
+    <!-- Tabs -->
+
+    <div class="container mt-4 py-5">
+        <ul class="nav nav-tabs" id="myTabs" role="tablist">
+            <li class="nav-item" role="presentation">
+                <a class="nav-link active link-warning" id="conoce-tab" data-bs-toggle="tab" href="#conoce" role="tab"
+                    aria-controls="conoce" aria-selected="true">Conoce el personaje</a>
+            </li>
+            <li class="nav-item" role="presentation">
+                <a class="nav-link link-warning" id="heroe-tab" data-bs-toggle="tab" href="#heroe" role="tab"
+                    aria-controls="heroe" aria-selected="false">Es un héroe porque...</a>
+            </li>
+            <li class="nav-item" role="presentation">
+                <a class="nav-link link-warning" id="parecidos-tab" data-bs-toggle="tab" href="#parecidos" role="tab"
+                    aria-controls="parecidos" aria-selected="false">Otros héroes parecidos</a>
+            </li>
+        </ul>
+
+        <div class="tab-content" id="myTabsContent">
+
+            <!-- TAB 1 -->
+            <div class="tab-pane fade show active" id="conoce" role="tabpanel" aria-labelledby="conoce-tab">
+
+                <div class="row py-5">
+
+                    <div class="col-4">
+                        <img class="img-fluid mr-5 " src="img/conoce.webp">
+                    </div>
+
+                    <div class="col-8 text-white">
+                        <h4 style="color: #febf2f;"> Batman es un personaje icónico de los cómics y la cultura popular.
+                        </h4>
+                        <br>
+
+                        <p> Nombre real: Bruce Wayne.
+                            <br>
+                            <br>
+                            Origen: Ciudad Gótica.
+                            <br>
+                            <br>
+                            Primera aparición: Detective Comics #27 en 1939.
+                            <br>
+                            <br>
+                            Motivación: Bruce Wayne se convirtió en Batman después de presenciar el asesinato de sus
+                            padres cuando era niño. Juró luchar contra el crimen y proteger a los inocentes en Ciudad
+                            Gótica.
+                            <br>
+                            <br>
+                            Habilidades: A pesar de carecer de superpoderes, Batman es un maestro en artes marciales,
+                            tácticas de combate y es un genio detective. Además, utiliza una amplia gama de dispositivos
+                            tecnológicos y un traje blindado.
+                            <br>
+                            <br>
+                            Personalidad: Batman es conocido por su determinación, su sentido del deber y su estricto
+                            código moral. A menudo se presenta como un hombre solitario y oscuro, obsesionado con la
+                            justicia.
+                        </p>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- TAB 2 -->
+            <div class="tab-pane fade" id="heroe" role="tabpanel" aria-labelledby="heroe-tab">
+
+                <div class="row text-white py-5">
+
+                    <div class="col-4">
+                        <img class="img-fluid align-items-center" src="img/porque.jpeg">
+                    </div>
+
+                    <div class="col-8">
+
+                        <h4 style="color: #febf2f;"> Batman se considera un héroe por varias razones:</h4>
+
+                        <p>
+                            <br>
+                            Lucha contra el crimen: Su principal motivación es eliminar el crimen en Ciudad Gótica y
+                            proteger a los ciudadanos inocentes.
+                            <br>
+                            <br>
+                            No tiene superpoderes: A diferencia de muchos otros superhéroes, Batman no tiene poderes
+                            sobrenaturales, lo que lo convierte en un héroe humano que se esfuerza al máximo para hacer
+                            justicia.
+                            <br>
+                            <br>
+                            Intelecto superior: Su inteligencia y habilidades detectivescas le permiten resolver los
+                            casos
+                            más complicados y derrotar a villanos ingeniosos.
+                            <br>
+                            <br>
+                            Utiliza su riqueza para el bien: Como multimillonario, Bruce Wayne financia la tecnología y
+                            el
+                            equipamiento de Batman, lo que le permite luchar contra el crimen de manera efectiva.
+                            <br>
+                            <br>
+                            Ética y moralidad: Batman sigue un estricto código moral que incluye no matar a sus
+                            enemigos, lo
+                            que lo diferencia de algunos otros héroes.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- TAB 3 -->
+            <div class="tab-pane fade" id="parecidos" role="tabpanel" aria-labelledby="parecidos-tab">
+
+                <div class="row text-white py-5">
+
+                    <div class="container col-4">
+                        <img class="img-fluid" src="img/otros.jpg">
+                    </div>
+
+                    <div class="container col-8">
+
+                        <p>Aunque Batman es único en muchos aspectos, hay otros héroes que
+                            comparten similitudes en términos de habilidades, motivación o enfoque en la lucha contra el
+                            crimen. Algunos de estos héroes son:</p>
+
+                        <details>
+                            <summary style="color: #febf2f; font-size: 20px;"><i class="fas fa-caret-down"></i> Green
+                                Arrow:</summary>
+                            <p>Oliver Queen, carece de superpoderes y confía en su habilidad con el arco y flechas, así
+                                como en su inteligencia para luchar contra el crimen.</p>
+                        </details>
+
+                        <br>
+
+                        <details>
+                            <summary style="color: #febf2f; font-size: 20px;"><i class="fas fa-caret-down"></i> Black
+                                Widow</summary>
+                            <p>Natasha Romanoff, al igual que Batman, es una experta en artes marciales y tácticas de
+                                combate. También tiene una historia de pasado oscuro.</p>
+                        </details>
+
+                        <br>
+
+                        <details>
+                            <summary style="color: #febf2f; font-size: 20px;"><i class="fas fa-caret-down"></i> Iron Man
+                            </summary>
+                            <p>Tony Stark, como Batman, utiliza su riqueza y habilidades intelectuales para crear una
+                                armadura tecnológica y luchar contra el crimen.</p>
+                        </details>
+
+                        <br>
+
+                        <details>
+                            <summary style="color: #febf2f; font-size: 20px;"><i class="fas fa-caret-down"></i> Moon
+                                Knight </summary>
+                            <p>Marc Spector, al igual que Batman, es un luchador callejero que opera por la noche y
+                                tiene una personalidad compleja.</p>
+                        </details>
+
+                        <br>
+
+                        <p>Si bien estos héroes comparten algunas características con Batman, cada uno tiene su propia
+                            historia única y enfoque en la justicia, lo que los hace personajes distintivos en el mundo
+                            de los cómics y el entretenimiento.</p>
+
+                    </div>
+
+                </div>
+
+
+
+            </div>
+
+
+        </div>
+    </div>
+
+
+
+ 
+    <!-- footer -->
+
+    <footer>
+    <div class="container-fluid bg-warning">
+
+        <div class="row p-4 m-auto pt-5">
+
+
+            <div class="col-3 text-center d-flex align-items-center justify-content-center">
+                <img class="img-fluid" src="img/f1.webp" style="width: 100px;">
+            </div>
+            
+            <div class="col-3 align-items-center"> 
+                <h4>Contacto</h4>
+                    <address>
+                        <p><strong> Dirección:</strong> Gotham City, Calle Wayne, Nº 1007 </p>
+                        <p><strong>Correo Electrónico:</strong> batman@baticueva.com</p>
+                        <p><strong>Teléfono:</strong> +1 (123) 456-7890</p>
+                    </address>
+            </div>
+
+
+
+            <div class="col-3">
+                <h4>Sobre Batman</h4>
+                <p>Batman es un personaje icónico de los cómics y la cultura popular. Descubre más sobre su historia y aventuras en nuestra página.</p>
+            </div>
+
+
+
+            <div class="col-3 align-items-center"> 
+                <p>¡Únete a la lucha contra el crimen en Gotham City y sé un héroe como Batman!</p>
+                <p>© 2023 Mi Sitio Web de Batman. Todos los derechos reservados. </p></div>
+            </div>
+
+
+
+          
+
+           
+
+        </div>
+    </div>
+    </footer>  
+
+
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            let currentIndex = 0;
+            const texts = document.querySelectorAll(".banner p");
+
+            function rotateText() {
+                texts[currentIndex].style.display = "none";
+                currentIndex = (currentIndex + 1) % texts.length;
+                texts[currentIndex].style.display = "block";
+            }
+
+            rotateText(); // Mostrar el primer texto al cargar la página
+
+            setInterval(rotateText, 3000); // Cambiar el texto cada 3 segundos (ajusta el tiempo según tus necesidades)
+        });
+    </script> 
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.5.0/dist/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+
+
+
+
+</body>
+
+</html>
